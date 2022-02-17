@@ -201,7 +201,7 @@ verticalStems = (
 32,
 62
 );
-weightValue = 250;
+weightValue = 400;
 widthValue = 5;
 xHeight = 410;
 }
@@ -32808,16 +32808,7 @@ width = 362;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "My Soul Regular";
-},
-{
-name = postscriptFontName;
-value = "My Soul-Regular";
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "9E0C627C-9F9A-47B5-8A8C-706F30D5AE4A" = 1;
 };
