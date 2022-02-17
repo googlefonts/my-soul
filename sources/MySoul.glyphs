@@ -2,7 +2,8 @@
 .appVersion = "1352";
 DisplayStrings = (
 abcdefghijklmnopqrstuvwxyz,
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ABCDEFGHIJKLMNOPQRSTUVWXYZ,
+"/f_f/space/f_f_i/space/f_f_l/space/fi/space/fl \012ff/space ffi/space ffl/space fi/space fl"
 );
 copyright = "Copyright 2016 The My Soul Project Authors (https://github.com/googlefonts/my-soul)";
 customParameters = (
@@ -82,7 +83,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -120,11 +121,11 @@ capHeight = 760;
 customParameters = (
 {
 name = typoAscender;
-value = 1025;
+value = 950;
 },
 {
 name = typoDescender;
-value = -303;
+value = -300;
 },
 {
 name = typoLineGap;
@@ -132,11 +133,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1025;
+value = 950;
 },
 {
 name = winDescent;
-value = 303;
+value = 300;
 },
 {
 name = hheaAscender;
@@ -33634,5 +33635,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
