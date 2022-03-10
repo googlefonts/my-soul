@@ -1,5 +1,5 @@
 {
-.appVersion = "1359";
+.appVersion = "1352";
 classes = (
 {
 automatic = 1;
@@ -152,11 +152,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 975;
+value = 1170;
 },
 {
 name = winDescent;
-value = 350;
+value = 515;
 },
 {
 name = strikeoutPosition;
@@ -40802,5 +40802,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 4;
+versionMinor = 5;
 }
