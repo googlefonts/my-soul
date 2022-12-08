@@ -8,7 +8,8 @@ DisplayStrings = (
 "Hd/trademark",
 "/Ldot/space \012/periodcentered.loclCAT",
 "l/periodcentered.loclCAT ·L·/Ldot L/ldot/ldot l",
-"L/periodcentered.loclCAT.case"
+"L/periodcentered.loclCAT.case",
+"/IJ IJ"
 );
 classes = (
 {
@@ -4130,7 +4131,7 @@ unicode = 0124;
 {
 color = 3;
 glyphname = I;
-lastChange = "2022-03-10 14:14:26 +0000";
+lastChange = "2022-12-08 14:40:14 +0000";
 layers = (
 {
 anchors = (
@@ -4281,6 +4282,26 @@ leftKerningGroup = I;
 note = I;
 rightKerningGroup = I;
 unicode = 0049;
+},
+{
+glyphname = IJ;
+lastChange = "2022-12-08 14:40:14 +0000";
+layers = (
+{
+components = (
+{
+name = I;
+},
+{
+name = J;
+transform = "{1, 0, 0, 1, 645, 0}";
+}
+);
+layerId = "9E0C627C-9F9A-47B5-8A8C-706F30D5AE4A";
+width = 1391;
+}
+);
+unicode = 0132;
 },
 {
 glyphname = Iacute;
@@ -14651,6 +14672,25 @@ width = 224;
 leftKerningGroup = i;
 rightKerningGroup = u;
 unicode = 020B;
+},
+{
+glyphname = ij;
+layers = (
+{
+components = (
+{
+name = i;
+},
+{
+name = j;
+transform = "{1, 0, 0, 1, 224, 0}";
+}
+);
+layerId = "9E0C627C-9F9A-47B5-8A8C-706F30D5AE4A";
+width = 401;
+}
+);
+unicode = 0133;
 },
 {
 glyphname = imacron;
@@ -40434,6 +40474,7 @@ parenright = 120;
 trademark = 370;
 };
 "@MMK_L_I" = {
+"@MMK_R_J" = -120;
 "@MMK_R_quotes" = 70;
 };
 "@MMK_L_J" = {
@@ -40738,5 +40779,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 10;
+versionMinor = 11;
 }
